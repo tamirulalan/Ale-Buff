@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+#container{
+    width: 1300px;
+    height: 500px;
+    background-color: rgb(36, 36, 72);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: auto;
+}
+#mychoice{
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+    height: 50px;
+    align-items:stretch;
+}
+#one,
+#two,
+#three,
+#four,
+#five{
+   padding: 10px; 
+   margin-left: 15px;
+   background-color: rgb(9, 152, 40);
+   border-color: green;
+}
+#hischoice{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    margin-left: 1100px;
+}

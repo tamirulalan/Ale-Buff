@@ -11,25 +11,51 @@
     <div id="container">
         <div id="header">
             <h1>Ale-Buff</h1>
-            <label for="Yourscore">Yourscore</label>
-            <input type="text" id="me" ></input> 
-            <label for="hisscore">his score</label>
-            <input type="text" id="player"></input>
+        </div>
+        <div id="displayScore">
+            <div id="user" class="ID">Name</div>
+            <div id="comp" class="ID">Comp</div>
+            <span id="myScore">0 </span>  <span id="compScore"> 0</span>
+        </div>
+        <div id="mychoice">
+            <label for="rondomChoice">Computer</label>
+            <input type="text"id=rondomChoice></input>
+        </div>
+        <div id="mychoice">
+            <label for="rondomChoice">my choice</label>
+            <input type="text"id=myFistChoice></input>
         </div>
         <div id="choice">
-            <div id="mychoice">
-                <button id="one">Dady</button><br>
-                <button id="two">Mamy</button><br>
-                <button id="three">brother</button><br>
-                <button id="four">sister</button><br>
-                <button id="five">baby</button>
+            <div id="message">
+                winning status message
             </div>
-            <div id="hischoice">
-                <label for="rondomChoice">Computer choice</label>
-                <input type="text"id=rondomChoice></input>
+            <div id="myChoice">
+                <div class="myChoice" id="one">
+                <img  src="images\1.png" width="50px" height="50px">
+                </div>
+                <div class="myChoice" id="two">
+                    <img  src="images\2.png" width="50px"height="50px">
+                </div>
+                <div class="myChoice" id="three">
+                <img  src="images\3.png" width="50px" height="50px">
+                </div>
+                <div class="myChoice" id="four">
+                <img  src="images\4.png" width="50px" height="50px">
+                </div>
+                <div class="myChoice" id="five">
+                <img  src="images\5.png" width="50px" height="50px">
+                </div>
             </div>
+            <div id="buttons">
+                <button id="btn">Start</button> 
+                <button id="resetbtn">Reset</button>
+
+            </div>
+
         </div>
+        
+            
     </div>
-    
+    <script src="./index.js"></script>
 </body>
 </html>

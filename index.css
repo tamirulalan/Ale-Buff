@@ -7,7 +7,7 @@ body{
 }
 #container{
     width: 1300px;
-    height: 500px;
+    height: 550px;
     background-color: rgb(36, 36, 72);
     text-align: center;
     margin-left: auto;
@@ -15,26 +15,113 @@ body{
     margin-top: 5%;
     margin-bottom: auto;
 }
+#displayScore{
+   align-items: center;
+   padding: 20px 20px;
+   border: 3px;
+   width: 100px;
+   margin: 20px auto;
+   position: relative;
+}
+#user{
+position: absolute;
+top: 20px;
+left: -70px;
+}
+
+#comp{
+    position: absolute;
+    top: 20px;
+    right: -70px;
+    }
+.ID, #compScore, #myScore, #myChoice{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family:'Lucida Sans';
+    color:bisque;
+    margin-bottom: 40px;
+    }
+
 #mychoice{
     display: flex;
-    flex-direction: column;
-    width: 90px;
-    height: 50px;
-    align-items:stretch;
+    flex-direction: row;
+    align-items: center;
 }
-#one,
-#two,
-#three,
-#four,
-#five{
-   padding: 10px; 
-   margin-left: 15px;
-   background-color: rgb(9, 152, 40);
-   border-color: green;
+#myChoice{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.myChoice{
+    margin: 10px;
+    padding: 10px 5px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: rgb(36, 36, 72);
+}
+.myChoice:hover{
+    cursor: pointer;
+    background-color: rgb(43, 32, 88);
+}
+
+#message{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family:'Lucida Sans';
+    color:bisque;
+    margin-bottom: 40px;
+}
+#buttons{
+    margin-top: 40px;
+   
+}
+#btn, #resetbtn {
+     background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 #hischoice{
     display: flex;
     flex-direction: column;
     width: 100px;
-    margin-left: 1100px;
+    margin-left: 100px;
+    /* margin-bottom: 1000px; */
+    font-size: 30px;
+    color: bisque;
+}
+.choice{
+    display: flex;
+    justify-content:space-around;
+    margin-block: 15px;
+}
+#me,#rondomChoice,#myFistChoice{
+    width: 40px;
+    padding: 10px;
+    margin: 2px;
+    border: 4px solid brown;
+    border-radius: 10%;
+}
+#player{
+    width: 30px;
+    padding: 10px;
+    border: 4px solid brown;
+    border-radius: 10%;
+}
+#mark, #point, #rondomChoice, #mychoice, #myFistChoice{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family:'Lucida Sans';
+    color:bisque
+}
+
+h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: antiquewhite;
 }

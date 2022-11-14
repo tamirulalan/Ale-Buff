@@ -15,20 +15,21 @@
         <div id="displayScore">
             <div id="user" class="ID">Name</div>
             <div id="comp" class="ID">Comp</div>
-            <span id="myScore">0 </span>  <span id="compScore"> 0</span>
+            <span id="myScore">0 :</span><span id="compScore" > 0</span>
         </div>
-        <div id="mychoice">
-            <label for="rondomChoice">Computer</label>
-            <input type="text"id=rondomChoice></input>
+        <div id="mod">
+            <div id="mychoice-pro">
+                <div class= "rondomChoice">Computer <span id="rondomChoice">0 </span></div>
+                <div class= "rondomChoice">Name <span id="myFistChoice">0 </span></div>
+            </div>  
+            <div id="animation"><img id="tk" src="images\tkn.png" width="50px" height="50px"> </div>
         </div>
-        <div id="mychoice">
-            <label for="rondomChoice">my choice</label>
-            <input type="text"id=myFistChoice></input>
+       
+        <div id="message">
+            winning status message
         </div>
         <div id="choice">
-            <div id="message">
-                winning status message
-            </div>
+            
             <div id="myChoice">
                 <div class="myChoice" id="one">
                 <img  src="images\1.png" width="50px" height="50px">
@@ -47,8 +48,7 @@
                 </div>
             </div>
             <div id="buttons">
-                <button id="btn">Start</button> 
-                <button id="resetbtn">Reset</button>
+                <input type="text" id="userInput"> <button id="btn">enter</button> <button class="btn again">Restart!</button>
 
             </div>
 

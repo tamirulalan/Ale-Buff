@@ -16,7 +16,15 @@ let user=document.getElementById('user').value
 let comp =document.getElementById('comp')
 let btn =document.getElementById('btn')
 let reserbtn =document.getElementById('resetbtn')
+let inpute =document.getElementById('userInput')
 
+btn.addEventListener('click',()=>{
+    //let computerChoice = getCompNumber();
+    const Number = (Math.floor(Math.random()*10))
+    rondomChoice.innerHTML =Number
+    //let input =inpute.value
+       
+})
 
 function getCompNumber (){
     const choices= ['one', 'two', 'three', 'four', 'five']
@@ -27,11 +35,14 @@ function getCompNumber (){
 
 function game(para){
 let computerChoice = getCompNumber();
-if (computerChoice==para){
+console.log(computerChoice)
+let input =inpute.value
+if (computerChoice && para == Number){
     myscore++
     myScore.innerText =myscore
     message.innerHTML=  "You Won the game!! 🔥"
-   choices.style.display.color = 'green' 
+   //choices.style.display.color = 'green' 
+   
 } else {
     compscore++
     compScore.innerText =compscore

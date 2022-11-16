@@ -13,14 +13,18 @@
             <h1>Ale-Buff</h1>
         </div>
         <div id="displayScore">
-            <div id="user" class="ID">Name</div>
-            <div id="comp" class="ID">Comp</div>
-            <span id="myScore">0 :</span><span id="compScore" > 0</span>
+            <div id="more">
+                <div id= "Name">🤔  <span id="myFirstChoice">x</span> </div>  
+                <div id= "computer">🥇 <span id="rondomChoice">x</span> </div>  
+            </div>
+            <div id="user" class="ID">🦸‍♂️ <span id="myScore"> 0 </span> <span id="dott"></span></div> 
+            <div id="comp" class="ID"><span id="compScore"> 0  </span >  💻</div> 
+            
+            
         </div>
         <div id="mod">
-            <div id="mychoice-pro">
-                <div class= "rondomChoice">Computer <span id="rondomChoice">0 </span></div>
-                <div class= "rondomChoice">Name <span id="myFistChoice">0 </span></div>
+            <div id="mychoice-pro"> 
+              attempts <span id="attempts">0</span>  
             </div>  
             <div id="animation"><img id="tk" src="images\tkn.png" width="50px" height="50px"> </div>
         </div>
@@ -31,31 +35,46 @@
         <div id="choice">
             
             <div id="myChoice">
-                <div class="myChoice" id="one">
-                <img  src="images\1.png" width="50px" height="50px">
-                </div>
-                <div class="myChoice" id="two">
-                    <img  src="images\2.png" width="50px"height="50px">
-                </div>
-                <div class="myChoice" id="three">
-                <img  src="images\3.png" width="50px" height="50px">
-                </div>
-                <div class="myChoice" id="four">
-                <img  src="images\4.png" width="50px" height="50px">
-                </div>
-                <div class="myChoice" id="five">
-                <img  src="images\5.png" width="50px" height="50px">
-                </div>
+                <button class="myChoice" id="one">
+                    <img  src="images\1.png" width="50px" height="50px"> <br>1</button>
+                <button class="myChoice" id="two">
+                    <img  src="images\2.png" width="50px" height="50px"> <br>2</button>
+                <button class="myChoice" id="three">
+                    <img  src="images\3.png" width="50px" height="50px"> <br>3</button>
+                <button class="myChoice" id="four">
+                    <img  src="images\4.png" width="50px" height="50px"> <br>4</button>
+                <button class="myChoice" id="five">
+                <img  src="images\5.png" width="50px" height="50px"> <br>5</button>
+                
             </div>
             <div id="buttons">
-                <input type="text" id="userInput"> <button id="btn">enter</button> <button class="btn again">Restart!</button>
+                <!-- <input type="text" id="userInput"> <button id="btn">enter</button> <button class="btn again">Restart!</button> -->
+                
 
             </div>
 
         </div>
-        
-            
+             
     </div>
+    <div class="gud">
+        <p id="intro">Alle-Buff:-  Human Vs. Computer</p>
+        <button id="modal-btn" class="button">Start</button>
+    </div>
+  <div id="my-modal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">okay</span>
+        <h2>Alle-Buff</h2>
+      </div>
+      <div class="modal-body">
+       
+        <p>Before you start this game you need to select a number from 1 to 5. Then when you play you can select any fingers from 1 to 5. If the computer rondom choice and your choice fingers nuber is equal wth the number you are selcting you will win the game</p>
+      </div>
+      <div class="modal-footer">
+        <input type="text" id="userInput" > <button id="footerbtn"> enter</button>
+      </div>
+    </div>
+  </div>
     <script src="./index.js"></script>
 </body>
 </html>

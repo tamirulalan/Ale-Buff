@@ -4,12 +4,17 @@
 }
 body{
     background-color: white;
-    
+    width: 1250px;
+    height: 500px;
+    margin-left: 100px;
+    opacity: 0.8;
 }
 #container{
-    width: 1300px;
-    height: 550px;
-    background-color: rgb(36, 36, 72);
+    /* width: 1300px;
+    height: 550px; */
+    width: 100%;
+    height: 100%;
+    background-color: rgb(25, 25, 68);
     text-align: center; 
     margin-left: auto;
     margin-right: auto;
@@ -171,36 +176,40 @@ h1{
 
 
 .button {
+  align-items: center;
     background: #083965;
     padding: 1em 2em;
     color: rgb(255, 255, 255);
     border: 0;
     border-radius: 5px;
     cursor: pointer;
-    margin: 100px 400px;
+    margin: 100px 600px;
     
   }
   .gud{
-    border: 15px solid rgb(234, 234, 238);
-    border-radius: 20%;
-    background-color: #97e691;
-    box-shadow: 5px 5px 5px 0px rgba(186, 240, 124, 0.3);
-    width: 70%;
+    border: 2px solid rgb(168, 168, 172);
+    border-radius: 2%;
+    background-color: rgba(248, 249, 250, 0.7);
+    box-shadow: 10px 5px 5px 0px rgba(186, 240, 124, 0.3);
+    width: 100%;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 80px;
+    
     
   }
   #intro{
-    margin-top: 100px;
-    margin-left: -600px;
+    
+    margin-top: 200px;
+    margin-left: -900px;
     /* position: absolute; */
     transform: translate(50%,-50%);
     text-transform: uppercase;
     font-family: verdana;
-    font-size: 40px;
-    font-weight: 700;
-    color: #f5f5f5;
+    font-size: 50px;
+    font-weight: 900;
+    color: #310505;
     text-shadow: 1px 1px 1px #919191,
         1px 2px 1px #919191,
         1px 3px 1px #919191,
@@ -230,12 +239,14 @@ h1{
     height: 100%;
     width: 100%;
     overflow: auto;
-    background-color: #1d3067;
+    background-color: #dcecea;
   }
   
   .modal-content {
     margin: 10% auto;
-    width: 30%;
+    width: 60%;
+    height: 60%;
+    font-size: 50px;
     box-shadow: 0 5px 8px 0 rgba(77, 74, 74, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
     animation-name: modalopen;
     animation-duration: var(--modal-duration);
@@ -252,12 +263,13 @@ h1{
     color: rgb(23, 24, 11);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    text-align: center;
   }
   
   .modal-body {
     padding: 10px 20px;
     background: rgb(228, 228, 211);
-    font-size: x-large;
+    font-size: 40px;
     
   }
   
@@ -271,10 +283,13 @@ h1{
   }
   
   .close {
-    color: #ccc;
+    color: rgb(227, 10, 10);
     float: right;
     font-size: 30px;
-    color: #fff;
+    color: rgb(232, 231, 231);
+    padding: 4px 10px;
+    border-radius: 4px;
+    background-color: #3b030a;
   }
   
   .close:hover,
@@ -296,7 +311,7 @@ h1{
   .btnReset {
     text-decoration: none;
   color: rgba(16, 43, 120, 0.8);
-  background: #4e0c54;
+  background: #0f0111;
   padding: 15px 40px;
   border-radius: 4px;
   font-size: 25px;
@@ -317,6 +332,11 @@ h1{
     width: 70px;
     height: 30px;
   }
+  @import url(https://fonts.googleapis.com/css?family=Advent+Pro:100);
+html { 
+  background:  url(https://i.pinimg.com/originals/3b/f2/f4/3bf2f45865bc4a63a663611ea357de4c.gif) no-repeat center center fixed; 
+  background-size: cover;
+}
 
 
   
